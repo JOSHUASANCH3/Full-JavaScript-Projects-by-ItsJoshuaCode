@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kaban Board</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Descripción del sitio">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple Kanban Board</h1>
+
+        <div class="board">
+
+            <!-- List 1 -->
+            <div class="list" id="list1">
+                <h2>To Do</h2>
+                <div class="card" id="card1" draggable="true">Wash Dishes</div>
+                <div class="card" id="card2" draggable="true">By Groceries</div>
+            </div>
+
+            <!-- List 2 -->
+            <div class="list" id="list2">
+                <h2>In Progress</h2>
+                <div class="card" id="card3" draggable="true">Learn to code</div>
+            </div>
+
+            <!-- List 3 -->
+            <div class="list" id="list3">
+                <h2>Do</h2>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Scripts al final del body -->
+    <script defer src="script.js"></script>
+</body>
+
+</html>
